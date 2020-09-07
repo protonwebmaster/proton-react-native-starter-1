@@ -30,7 +30,7 @@ export default function HomeScreen({ isExtended, setIsExtended }) {
       >
         <View style={styles.section}>
           <Text size={20} white>
-            Home
+            Prontonwebmaster
           </Text>
         </View>
         <View style={styles.section}>
@@ -50,7 +50,7 @@ export default function HomeScreen({ isExtended, setIsExtended }) {
           <View style={styles.priceContainer}>
             <View style={{ flexDirection: 'row' }}>
               <Text white bold size={50} style={styles.price}>
-                {isExtended ? '$199.95' : '$49.95'}
+                {isExtended ? 'Dev' : '2020'}
               </Text>
             </View>
             <TouchableOpacity
